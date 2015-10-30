@@ -1,4 +1,4 @@
-this simply integrates a reaction network consisting of species
+this simply integrates a reaction network consisting of Urca species
 equations, with no thermodynamics evolution, so we don't need an EOS
 here.
 
@@ -28,6 +28,8 @@ PrgEnv-pgi or PrgEnv-cray
 It is recommended that you swap out to the latest environment for the compiler, e.g.
 $ module swap cce/8.3.4 cce/8.3.12
 $ module swap pgi/14.2.0 pgi/15.3.0
+
+The first-order-urca code compiles and runs successfully with the PGI 15.9 compiler
 
 ---
 Recommendations for OpenACC development based on developing this code:
